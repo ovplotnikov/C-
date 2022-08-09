@@ -6,7 +6,7 @@ string? s_num1 = Console.ReadLine();
 
 int num1 = int.Parse(s_num1);
 
-Console.WriteLine("Введите первое число: ");
+Console.WriteLine("Введите второе число: ");
 
 string? s_num2 = Console.ReadLine();
 

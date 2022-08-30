@@ -45,23 +45,21 @@ int[,] array = CreateArrayWithRandomNumbers(m, n);
 
 PrintArray(array);
 
-double sum = 0;
-
 for (var i = 0; i < array.GetLength(0); i++)
 {
+    double sum = 0;
     for (var j = 0; j < array.GetLength(1); j++)
     {
-        
-        
+
+
         sum = sum + array[j, i];
         double middle = sum / array.GetLength(1);
         if (j == array.GetLength(1) - 1)
         {
             Console.WriteLine($"Среднее арифметическое столбца {i}: {middle}");
-            sum = 0;
         }
-        
-                
+
+
 
     }
 }

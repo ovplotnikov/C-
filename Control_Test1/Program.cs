@@ -39,7 +39,7 @@ void CreateStringArrayLess3(out string[] array) //Метод создает ма
     array = new string[j];
     for (int i = 0; i < j; i++)
     {
-        array[i] = array2[i];
+        array[i] = array2[i]; //Массив array2 создан для того, чтобы не было пустых элементов в массиве array
     }
 }
 
